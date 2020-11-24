@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "project-c60",
+    "slug": "snack-25acb7a7-b293-49fc-a110-fc9774ffbe5e",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "android":{
+      "package": "com.testuser.avsquizapp"
+    },
+
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+  
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier" : "com.testuser.avsquizapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
